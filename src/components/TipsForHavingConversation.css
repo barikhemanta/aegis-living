@@ -1,0 +1,60 @@
+/* Base styling for the section */
+.unique-conversation-before-the-conversation {
+    background-color: #fff; /* Light background color */
+    padding: 40px 0; /* Top and bottom padding */
+    padding-top: 80px;
+    text-align: center; /* Center text horizontally */
+    position: relative; /* To position the divider absolutely */
+  }
+  
+  /* Divider styling */
+  .unique-conversation-divider {
+    position: absolute;
+    right: 0;
+    width: 80%;
+    height: 2.5px; /* Height of the line */
+    background-color: #0978c3; /* Color of the line */
+    /* Center the divider horizontally */
+  }
+  
+  /* Container styling */
+  .unique-conversation-container {
+    max-width: 100%; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px 50px 20px; /* Padding on the left and right */
+  }
+  
+  /* Row styling */
+  .unique-conversation-row {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+  }
+  
+  /* Column styling */
+  .unique-conversation-column {
+    flex: 1;
+    max-width: 100%; /* Ensure it doesn't exceed its container */
+  }
+  
+  /* Text content styling */
+  .unique-conversation-text-content h2 {
+    font-size: 2.5rem; /* Font size for the heading */
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 0.1em;
+    color: #333; /* Text color */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .unique-conversation-text-content h2 {
+      font-size: 1.5rem; /* Smaller font size on mobile */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .unique-conversation-text-content h2 {
+      font-size: 1.25rem; /* Even smaller font size on very small screens */
+    }
+  }
+  

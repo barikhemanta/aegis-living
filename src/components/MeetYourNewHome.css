@@ -1,0 +1,80 @@
+/* Container styles */
+.meet-your-new-home {
+    background-color: #fff;
+    padding: 32px 68px;
+    text-align: center;
+    max-width: 716px;
+    height: 244px;
+    margin: 0 auto; /* Center container horizontally */
+    position: relative; /* Reference point for the pseudo-element */
+    top: -65px;
+    overflow: hidden; /* Ensure no overflow */
+  }
+  
+  /* Title styles */
+  .title {
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+    color: #41463f;
+    margin-top: 0;
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    text-align: center;
+    font-weight: lighter;
+  }
+  
+  /* Description styles */
+  .description {
+    font-size: 1.1em;
+    font-weight: 500;
+    color: #34495e;
+    margin-bottom: 10px;
+    padding-top: 16px;
+    text-align: center;
+    width: 746px;
+    letter-spacing: 0.1em;
+    line-height: 1.8;
+  }
+  
+  /* Button styles */
+  .find-community-button {
+    font-weight: bolder;
+    color: #0978c3;
+    background: white;
+    border: 2px solid #0978c3;
+    padding: 13px 40px;
+    margin-top: 28px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .find-community-button:hover {
+    color: #0c507d;
+  }
+  
+  
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .meet-your-new-home {
+      padding: 16px 24px; /* Adjust padding for smaller screens */
+    }
+  
+    .title {
+      font-size: 2em; /* Adjust font size for smaller screens */
+    }
+  
+    .description {
+      font-size: 1em; /* Adjust font size for smaller screens */
+      width: auto; /* Make description width responsive */
+    }
+  
+    .find-community-button {
+      font-size: 1em; /* Adjust font size for smaller screens */
+      padding: 10px 20px; /* Adjust padding for smaller screens */
+    }
+  
+
+  }
+  

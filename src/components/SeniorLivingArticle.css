@@ -1,0 +1,100 @@
+
+.main-content {
+    padding: 20px;
+}
+
+.text-module {
+    margin-bottom: 20px;
+}
+
+.Senior-Living-divider-bottom {
+    left: -172px;
+    width: auto;
+    height: 2.5px;
+    background-color: #0978c3;
+    position: relative;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.submenu {
+    position: sticky;
+    top: 20px;
+    padding: 20px;
+}
+
+.al-submenu {
+    background-color: #f5f5f5;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.al-submenu__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.al-submenu__top p {
+    margin: 0;
+}
+
+.al-submenu__top__arrow {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.al-submenu__main {
+    padding: 10px 0;
+}
+
+.al-submenu__parent {
+    padding: 10px 20px;
+    border-top: 1px solid #ddd;
+    position: relative;
+}
+
+.al-submenu__parent.active {
+    background-color: #e0e0e0;
+}
+
+.al-submenu__bottom-border {
+    height: 1px;
+    background-color: #ddd;
+    margin-top: 10px;
+}
+
+.collapsible {
+    display: none;
+}
+
+.collapsible.open {
+    display: block;
+}
+
+.arrow {
+    background: none;
+    border: none;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    cursor: pointer;
+}
+
+.submenu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.submenu li {
+    padding: 10px 20px;
+}

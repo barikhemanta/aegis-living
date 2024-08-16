@@ -1,0 +1,27 @@
+.horizontal-line-container {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start; /* Aligns line to the start */
+  }
+  
+  .horizontal-line {
+    height: 2px; /* Adjust thickness */
+    background-color: #0978c3; /* Adjust color */
+    width: 80%;
+    max-width: 1519px; /* Ensure line doesn’t exceed 1519px */
+    margin-left: 0; /* Start from the very beginning of the viewport */
+  }
+  
+  @media (max-width: 1519px) {
+    .horizontal-line {
+      width: 80%;
+      max-width: 100%; /* Ensure line doesn’t exceed viewport width */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .horizontal-line {
+      width: 100%; /* Full width on smaller screens */
+    }
+  }
+  

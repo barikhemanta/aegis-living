@@ -1,0 +1,35 @@
+.rtl-line-container {
+    margin-top: 20em;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end; /* Aligns line to the end */
+  }
+  
+  .rtl-line {
+    height: 2px; /* Adjust thickness */
+    background-color: #0978c3; /* Adjust color */
+    width: 80%;
+    max-width: 1519px; /* Ensure line doesn’t exceed 1519px */
+    margin-right: 0; /* Start from the very end of the viewport */
+  }
+  
+  @media (max-width: 1519px) {
+    .rtl-line {
+      width: 80%;
+      max-width: 100%; /* Ensure line doesn’t exceed viewport width */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .rtl-line-container {
+      margin-top: 3em;
+      width: 100%;
+      display: flex;
+      justify-content: flex-end; /* Aligns line to the end */
+    }
+
+    .rtl-line {
+      width: 100%; /* Full width on smaller screens */
+    }
+  }
+  

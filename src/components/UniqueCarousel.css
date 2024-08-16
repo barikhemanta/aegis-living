@@ -1,0 +1,138 @@
+.unique-main {
+  margin-top: 3.2em;
+  padding: 10px;
+  text-align: center;
+}
+
+.unique-carousel-heading {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  font-size: 3em;
+  font-family: 'Playfair Display', serif;
+  color: #333;
+}
+
+.unique-carousel-wrapper {
+  position: relative;
+  background: #e0e7e8;
+  width: 100%;
+  margin: 0 auto;
+  padding: 100px 0;
+  box-sizing: border-box;
+}
+
+.unique-carousel {
+  position: relative;
+  width: 100%;
+}
+
+.unique-carousel-container {
+  display: flex;
+  width: 90%;
+  overflow: hidden;
+  margin: auto;
+}
+
+.unique-carousel-slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.unique-carousel-slide {
+  min-width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  padding: 0 20px; /* Padding around the slides */
+}
+
+.unique-carousel-image {
+  width: 50%;
+  height: auto;
+  object-fit: cover;
+  padding-right: 30px;
+}
+
+.unique-carousel-text {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #f0f0f0;
+}
+
+.main-text {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.sub-texts {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  text-align: center;
+  padding-top: 3em;
+}
+
+.sub-texts p {
+  margin: 0;
+  font-size: 18px;
+}
+
+.first-para {
+  font-weight: bolder;
+}
+
+.unique-carousel-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1;
+}
+
+/* Position buttons at the edges of the unique-carousel-wrapper */
+.unique-carousel-button.left {
+  left: 0;
+  margin-left: 1px; /* Adjust distance from the edge if needed */
+}
+
+.unique-carousel-button.right {
+  right: 0;
+  margin-right: 1px; /* Adjust distance from the edge if needed */
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .unique-carousel-wrapper {
+    padding: 60px 0;
+  }
+
+  .unique-carousel-slide {
+    flex-direction: column;
+  }
+
+  .unique-carousel-slide {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .unique-carousel-image {
+ 
+    padding: 0; /* Remove padding on mobile */
+  }
+
+  .unique-carousel-text {
+
+    padding: 10px;
+  }
+  .main-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+}

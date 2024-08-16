@@ -1,0 +1,128 @@
+.contact-us-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 850px;
+}
+
+.contact-us-form h2 {
+  font-size: 48px;
+  font-weight: 500;
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+}
+
+.contact-us-form p {
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  line-height: 2;
+  text-align: center;
+  padding: 1px 6em;
+  padding-bottom: 30px;
+}
+
+.contact-us-form form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+}
+
+.form-row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.half-width {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.form-row.half-width input {
+  width: 48%; /* Ensures both inputs fit side by side with some space in between */
+}
+
+.form-row input,
+.form-row select,
+.form-row textarea {
+  padding: 5px;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  border: none;
+  border-bottom: 1px solid #515050;
+  box-sizing: border-box;
+}
+
+.form-row .message {
+  border: 1px solid #515050;
+  box-sizing: border-box;
+}
+
+.form-row input::placeholder,
+.form-row select::placeholder,
+.form-row textarea::placeholder {
+  color: #515050;
+}
+
+.form-row input,
+.form-row select,
+.form-row textarea {
+  width: 100%;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+  padding-top: 10px;
+}
+
+.recaptcha-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.contact-us-form button {
+  width: 103px;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #05588f;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.2em;
+  margin-left: 40%;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.contact-us-form button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 600px) {
+  .contact-us-form {
+    width: 100%;
+  }
+
+  .form-row.half-width {
+    flex-direction: column;
+  }
+
+  .form-row.half-width input {
+    width: 100%;
+  }
+
+  .recaptcha-container {
+    width: 100%;
+  }
+
+  .contact-us-form button {
+    margin-left: 0;
+  }
+}

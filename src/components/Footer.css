@@ -1,0 +1,173 @@
+#main-footer {
+    background-color: #003f72;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 12px;
+    font-size: 14px;
+}
+
+.main-container {
+    max-width: 1200px;
+    margin: 0 auto;
+   
+    padding-top: 38px;
+    border-top: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-widgets {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+
+.footer-logo-social {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.footer-logo-social img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer-aegis-social {
+    padding: 0 16px;
+}
+
+.footer-aegis-social .et-social-icons {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+
+.et-social-icon {
+    font-size: 11px;
+    padding: 0 15px;
+}
+
+.footer-aegis-social .et-social-icon a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-widget {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding-bottom: 76px;
+}
+
+.footer-widget .menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 10px;
+}
+.footer-widget-list{
+    padding: 0 10px;
+}
+
+.footer-widget .menu li a {
+    color: #fff;
+    font-size: 18px;
+    padding-right: 5px;
+    text-decoration: none;
+}
+
+.footer-mid-container {
+    text-align: right;
+    margin-top: 20px;
+
+}
+.footer-mid-container a{
+    font-size: 14px;
+    color: #fff;
+    text-decoration: none;
+}
+.footer-mid-container p{
+    font-size: 14px;
+  
+}
+
+#footer-divider {
+    height: 1px;
+    background-color: #fff;
+    margin: 20px 0;
+}
+
+#footer-bottom {
+    text-align: right;
+    margin-bottom: 14px;
+}
+
+#footer-info {
+    font-size: 14px;
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        padding: 0;
+        border-top: none;
+    }
+
+ 
+    #footer-widgets {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-widget{
+        border-bottom: 1px solid #fff;
+        padding-bottom: 10px;
+}
+
+    .footer-widget .menu li{
+        padding: 15px 0;
+    }
+    
+.footer-widget .menu li a {
+    font-size: 16px;
+}   
+
+    .footer-aegis-social{
+       border-bottom: 1px solid #fff;
+    }
+
+    .footer-logo-social,
+    .footer-aegis-social,
+    .footer-widget,
+    .footer-widget .menu {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer-logo-social img {
+        margin-bottom: 20px;
+    }
+
+    .footer-aegis-social .et-social-icons {
+        flex-direction: row;
+    }
+
+    .footer-widget .menu {
+        flex-direction: column; /* Change to column for mobile view */
+        align-items: center; /* Center the items in the column */
+    }
+
+    .footer-mid-container {
+        width: 100%;
+        text-align: center;
+    }
+
+    #footer-bottom {
+        text-align: center;
+    }
+}

@@ -1,0 +1,129 @@
+.second-image-card-section {
+  text-align: center;
+  margin-bottom: 210px;
+}
+
+.get-started-here {
+  padding: 15px 20px;
+  margin-bottom: 70px;
+  letter-spacing: 0.1em;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2577ba;
+  background: #fff;
+  border: 2px solid #2577ba;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.second-section-heading {
+  font-size: 3rem;
+  font-family: 'Playfair Display', serif;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.second-image-card-container {
+  display: flex;
+  width: 1215px;
+  margin-left: 151px;
+  flex-wrap: nowrap;
+  gap: 0;
+}
+
+.second-image-card {
+  padding-right: 70px;
+  position: relative;
+  width: 33.33%; /* Three cards per row */
+  overflow: visible; /* Allow text to be visible outside the image */
+}
+
+.second-card-image {
+  width: 100%;
+  height: 405px;
+  display: block;
+}
+
+.second-card-text {
+  position: absolute;
+  bottom: -14%; /* Move text 20% below the bottom of the image */
+  background: white;
+  width: calc(91% - 68px); /* 100% width minus the margins */
+  margin-left: 17px;
+  margin-right: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  color: rgba(0, 0, 0, 0.5); /* Semi-transparent text */
+  height: 150px; /* Increase height to accommodate the button */
+}
+
+.second-card-text h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  padding-top: 10px;
+  color: #000;
+}
+
+.second-card-text p {
+  margin: 0;
+  padding-top: 20px;
+  font-size: 1rem;
+  line-height: 2;
+  letter-spacing: 0.1em;
+  color: #000;
+}
+
+.read-more-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  letter-spacing: 0.1em;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2577ba;
+  background: #fff;
+  border: 2px solid #2577ba;
+  cursor: pointer;
+  transition: background 0.3s, color 0.3s;
+}
+
+.read-more-button:hover {
+  background: #fff;
+  color: #2577ba;
+}
+
+@media screen and (max-width: 768px) {
+  .second-image-card-container {
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+    gap: 20px; /* Add gap between each card */
+  }
+
+  .second-image-card {
+    width: 100%;
+    padding-right: 0;
+    margin-bottom: 40px;
+  }
+
+  .second-card-image {
+    height: auto;
+  }
+
+  .second-card-text {
+    width: 100%;
+    position: static; /* Allow text to remain below the image */
+    margin: 10px 0; /* Add margin around text container */
+  }
+  
+  .get-started-here {
+    margin-bottom: 30px;
+  }
+
+  .second-section-heading {
+    font-size: 2rem;
+    padding-bottom: 20px;
+    padding-top: 15px;
+  }
+}

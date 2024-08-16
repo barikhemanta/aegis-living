@@ -1,0 +1,70 @@
+/* Base styling for the section */
+.Average-Cost-before-the-conversation {
+    background-color: #fff; /* Light background color */
+    padding: 40px 0; /* Top and bottom padding */
+    text-align: center; /* Center text horizontally */
+    position: relative; /* To position the divider absolutely */
+  }
+  
+  /* Divider styling */
+  .Average-Cost-before-divider-bottom {
+    position: absolute;
+    right: 0;
+    width: 80%;
+    height: 2px; /* Height of the line */
+    background-color: #0978c3; /* Color of the line */
+    bottom: 0;
+  }
+
+   /* Divider styling */
+   .other-options-divider-bottom {
+    position: absolute;
+    right: 0;
+    width: 80%;
+    height: 2px; /* Height of the line */
+    background-color: #0978c3; /* Color of the line */
+    bottom: 0; 
+ 
+  }
+  
+  /* Container styling */
+  .Average-Cost-container {
+    max-width: 100%; /* Maximum width of the container */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Padding on the left and right */
+  }
+  
+  /* Row styling */
+  .Average-Cost-row {
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+  }
+  
+  /* Column styling */
+  .Average-Cost-column {
+    flex: 1;
+    max-width: 100%; /* Ensure it doesn't exceed its container */
+  }
+  
+  /* Text content styling */
+  .Average-Cost-text-content h2 {
+   font-size: 48px; /* Font size for the heading */
+    font-weight: 500;
+    font-family: 'Playfair Display', serif;
+    color: #333; /* Text color */
+    margin: 0; /* Remove default margin */
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .Average-Cost-text-content h2 {
+      font-size: 1.5rem; /* Smaller font size on mobile */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .Average-Cost-text-content h2 {
+      font-size: 1.25rem; /* Even smaller font size on very small screens */
+    }
+  }
+  

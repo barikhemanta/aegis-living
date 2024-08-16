@@ -1,0 +1,156 @@
+.video-player {
+  position: relative;
+  width: 100%;
+  height: 854px; /* Adjust this if needed for different aspect ratios */
+  background: #000; /* Ensures the player has a dark background matching the video */
+  overflow: hidden; /* Prevents content from spilling out */
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover; /* Ensures the video covers the entire area without stretching */
+}
+
+.controls {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  display: flex;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+  height: 40px; /* Height for controls to match play/pause button and progress bar */
+}
+
+.video-player:hover .controls {
+  opacity: 1;
+}
+
+.play-pause-container {
+  color: #fff;
+  background-color: rgba(255, 255, 255, 0); /* White color with 0% opacity */
+  /* Square curve for a refined look */
+  height: 30px; /* Same height for both containers */
+  width: 36px;
+  display: flex;
+  align-items: center;
+  margin-right: 15px; /* Added space for better alignment */
+}
+
+.progress-container {
+  background: #000000; /* Darker background for better contrast */
+  border: 15px solid rgba(0, 0, 0, 0.8); /* Subtle border */
+  border-radius: 4px; /* Square curve for a refined look */
+  height: 30px; /* Same height for both containers */
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.play-pause {
+  background: #000;
+  border: 1px solid #000;
+  border-radius: 4px;
+  color: white;
+  font-size: 24px; /* Larger font for better visibility */
+  cursor: pointer;
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.play-pause:hover {
+  color: #000; /* Highlight color on hover */
+  background: #00aaff;
+}
+
+.progress-container {
+  flex-grow: 1;
+  height: 3.5px; /* Thinner height for the progress bar */
+  background: rgba(255, 255, 255, 0.2); /* Light background for the progress track */
+  border: 8px 0;
+  border-radius: 4px; /* Matching border radius */
+  position: relative;
+}
+
+.progress-bar {
+  height: 100%; /* Full height of the container */
+  background: #00aaff; /* Light blue color for the progress bar */
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px; /* Square curve for the progress bar itself */
+  transition: width 0.2s; /* Smooth transition for progress updates */
+}
+
+.tooltip {
+  position: absolute;
+  top: -30px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.6); /* Slightly lighter overlay */
+}
+
+.play-overlay {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 60px; /* Larger play button */
+  cursor: pointer;
+}
+
+/* Media Query for Mobile Responsiveness */
+@media (max-width: 768px) {
+  .video-player {
+    height: 56.25vw; /* Maintain 16:9 aspect ratio on mobile */
+  }
+
+  .controls {
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    height: 30px; /* Reduced height for smaller screens */
+  }
+
+  .play-pause-container {
+    height: 24px; /* Adjusted for smaller screens */
+    width: 24px;
+    margin-right: 10px; /* Reduced margin */
+  }
+
+  .play-pause {
+    font-size: 18px; /* Smaller play/pause button */
+  }
+
+  .progress-container {
+    height: 20px; /* Adjusted height for smaller screens */
+    border-width: 10px; /* Reduced border width */
+  }
+
+  .tooltip {
+    font-size: 12px; /* Smaller tooltip font size */
+    top: -25px; /* Adjusted position */
+  }
+
+  .play-overlay {
+    font-size: 48px; /* Smaller play button */
+  }
+}

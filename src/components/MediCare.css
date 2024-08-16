@@ -1,0 +1,52 @@
+
+.research-section {
+    padding: 20px 0;
+    padding-bottom: 50px;
+    background:  #e5e8e8;
+  }
+  
+  
+  
+  .research-column {
+    width: 750px;
+    margin: 0 232px 18px 218px;
+    padding-left: 170px;
+
+  }
+  
+  .research-title {
+    font-size: 22px;
+    color: #333;
+    letter-spacing: 0.1em;
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  
+  .research-item {
+    text-align: left;
+    margin-bottom: 10px;
+    letter-spacing: 0.1em;
+    line-height: 2;
+
+  }
+
+  
+  .research-item a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 600px) {
+    .research-column {
+      padding: 10px;
+    }
+  
+    .research-title h3 {
+      font-size: 24px;
+    }
+  
+    .research-item {
+      font-size: 14px;
+    }
+  }
+  

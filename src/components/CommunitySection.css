@@ -1,0 +1,96 @@
+/* Base styling for the section */
+.community-section-before-the-conversation {
+    background-color: #fff; /* Light background color */
+    padding: 0 0 40px 0; /* Top and bottom padding */
+    text-align: center; /* Center text horizontally */
+    position: relative; /* To position the divider absolutely */
+    width: 100%; /* Full width */
+    margin-bottom: 100px;
+}
+
+/* Wrapper div for the sub div */
+.community-section-wrapper {
+    width: 1519px; /* Fixed width for the sub div */
+    margin: 0 auto; /* Center the sub div */
+}
+
+/* Container styling */
+.community-section-container {
+    width: 1215px; /* Fixed width for the child div */
+    margin: 0 auto; /* Center the child div */
+    padding: 80px 20px 50px 20px; /* Padding on the left and right */
+}
+
+/* Divider styling */
+.community-section-divider-top {
+    position: absolute;
+    right: 0;
+    width: 80%;
+    height: 2.5px; /* Height of the line */
+    background-color: #0978c3; /* Color of the line */
+    top: 0; /* Adjust top position to display */
+}
+
+.community-section-divider-bottom {
+    position: absolute;
+    left: 0;
+    width: 80%;
+    height: 2.5px; /* Height of the line */
+    background-color: #0978c3; /* Color of the line */
+    bottom: 0; /* Adjust top position to display */
+}
+
+.community-section-text-content h2 {
+    font-size: 2.7rem; /* Font size for the heading */
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    color: #333; /* Text color */
+    margin: 0; /* Remove default margin */
+}
+
+.community-section-text-content p {
+    font-size: 16px;
+    margin-bottom: 30px;
+    letter-spacing: 0.1em;
+    line-height: 2;
+}
+
+.community-button {
+    text-decoration: none;
+    padding: 10px;
+    color: #1192d1;
+    font-size: 18px;
+    letter-spacing: 0.2em;
+    font-weight: bold;
+    border: 2px solid #1192d1;
+}
+
+.community-button:hover {
+    color: #05588f;
+    border: 2px solid #05588f;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 1519px) {
+    .community-section-wrapper {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+
+@media (max-width: 1215px) {
+    .community-section-container {
+        width: 100%; /* Full width on smaller screens */
+    }
+}
+
+@media (max-width: 768px) {
+    .community-section-text-content h2 {
+        font-size: 1.5rem; /* Smaller font size on mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .community-section-text-content h2 {
+        font-size: 1.25rem; /* Even smaller font size on very small screens */
+    }
+}

@@ -1,0 +1,114 @@
+.main-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-text-row {
+    width: 1215px;
+    padding: 50px 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .image-container {
+    
+    padding-right: 16px;
+  }
+  
+  .image-container img {
+    width: 714px;
+    height: auto;
+  
+  }
+  
+  .text-container {
+    flex: 1;
+    margin-left: 20px;
+  }
+  
+  .text-container h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 46px;
+    color: #333;
+    padding-bottom: 20px;
+    margin: 0;
+   
+  }
+  
+  .text-container p {
+    font-size: 16px;
+    line-height: 2;
+    color: #333;
+    padding-bottom: 30px;
+  }
+  
+  .text-container .button-link {
+    font-weight: bolder;
+    color: #0978c3;
+    text-decoration: none;
+    background: white;
+    border: 2px solid #0978c3;
+    padding: 13px 40px;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .text-container .button-link:hover {
+    color: #0c507d;
+  }
+
+  
+  /* Responsive Design */
+  @media (max-width: 1215px) {
+    .image-text-row {
+      flex-direction: column;
+      align-items: flex-start;
+      width: 100%;
+      padding: 20px;
+    }
+  
+
+    .text-container {
+      width: 100%;
+    }
+
+    .image-container{
+      width: auto;
+      
+    }
+
+    .image-container img{
+      width: 60%;
+      position: relative;
+      left: -155px;
+      
+    }
+  
+    .text-container {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+  .image-text-row {
+    width: auto;
+  }
+  
+  
+    .text-container h2 {
+      font-size: 20px;
+    }
+  
+    .text-container p {
+      font-size: 12px;
+    }
+  
+    .text-container .button-link {
+      font-size: 12px;
+    }
+  }
+  

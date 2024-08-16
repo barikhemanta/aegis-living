@@ -1,0 +1,50 @@
+.uni-txt-section {
+    width: 100%;
+    max-width: 1215px;
+    margin: 0 auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    box-sizing: border-box;
+  }
+  
+  .uni-txt-content {
+    width: 100%;
+    max-width: 729px;
+    margin: 0 auto;
+    text-align: left;
+  }
+  
+  .uni-txt-text-container {
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  .uni-txt-text-inner p {
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    line-height: 2;
+    margin: 10px 0;
+    letter-spacing: 0.1em;
+    padding-bottom: 10px;
+  }
+  
+  .uni-txt-image-container {
+    width: 759px;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .uni-txt-responsive-image {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  @media (max-width: 768px) {
+    .uni-txt-content {
+      padding: 0 10px;
+    }  
+    .uni-txt-text-container {
+      padding: 10px;
+    }
+  }
+  
