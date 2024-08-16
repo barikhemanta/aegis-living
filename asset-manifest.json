@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/aegis-living/static/css/main.1efc0546.css",
+    "main.js": "/aegis-living/static/js/main.fd157972.js",
+    "static/media/img31.jpg": "/aegis-living/static/media/img31.d6a88087d546c2945bd2.jpg",
+    "static/media/img5.jpg": "/aegis-living/static/media/img5.d869a5c7b5bafed85531.jpg",
+    "static/media/img29.jpg": "/aegis-living/static/media/img29.7447e75228668191745a.jpg",
+    "static/media/img30.jpg": "/aegis-living/static/media/img30.3e0a85dd03f0f128e984.jpg",
+    "static/media/img6.jpg": "/aegis-living/static/media/img6.0a6e7f30fd37f8da81c7.jpg",
+    "static/media/img3.jpg": "/aegis-living/static/media/img3.cecf374c10f24f012b97.jpg",
+    "static/media/img2.jpg": "/aegis-living/static/media/img2.1dd343c20edb9ff4e5af.jpg",
+    "static/media/img26.jpg": "/aegis-living/static/media/img26.c7b04199cb5239989805.jpg",
+    "static/media/img1.jpg": "/aegis-living/static/media/img1.83294bf688e4c6d92818.jpg",
+    "static/media/img33.jpg": "/aegis-living/static/media/img33.16bc1e3edd9c31057e15.jpg",
+    "static/media/img38.jpg": "/aegis-living/static/media/img38.de345c25ad9d14281763.jpg",
+    "static/media/img37.jpg": "/aegis-living/static/media/img37.caad18dd0cc8ce134714.jpg",
+    "static/media/img4.jpg": "/aegis-living/static/media/img4.ec6d01d308a28ebb7fdf.jpg",
+    "static/media/img32.jpg": "/aegis-living/static/media/img32.cc7b772f1f3ce3319a78.jpg",
+    "static/media/img25.jpg": "/aegis-living/static/media/img25.3d4adf04a4d3122ca0fa.jpg",
+    "static/media/img24.jpg": "/aegis-living/static/media/img24.384a6fa8dc4947db739b.jpg",
+    "static/media/img27.jpg": "/aegis-living/static/media/img27.f0391b98595df1183c09.jpg",
+    "static/media/img28.jpg": "/aegis-living/static/media/img28.716a1d79f77914253d8e.jpg",
+    "static/media/img35.jpg": "/aegis-living/static/media/img35.8bd3bd78a5b48449008a.jpg",
+    "static/media/img36.jpg": "/aegis-living/static/media/img36.3d258893cb058e067137.jpg",
+    "static/media/img34.jpg": "/aegis-living/static/media/img34.9cf43cf2825c33a6e3c0.jpg",
+    "static/media/navbarLogo.svg": "/aegis-living/static/media/navbarLogo.5d20ff64f064b5e1100c37df9c805636.svg",
+    "static/media/transitional-care.svg": "/aegis-living/static/media/transitional-care.3f722cb73704785be5b15a1057aeac7a.svg",
+    "static/media/assisted-living.svg": "/aegis-living/static/media/assisted-living.79ebbfbbb9b8a89ee2806e94a8b61771.svg",
+    "static/media/light-assisted-living.svg": "/aegis-living/static/media/light-assisted-living.8aa8b342811d549232d0b10a157c22f6.svg",
+    "index.html": "/aegis-living/index.html",
+    "main.1efc0546.css.map": "/aegis-living/static/css/main.1efc0546.css.map",
+    "main.fd157972.js.map": "/aegis-living/static/js/main.fd157972.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1efc0546.css",
+    "static/js/main.fd157972.js"
+  ]
+}
